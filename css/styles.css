@@ -201,3 +201,70 @@
 }
 
 }
+.footer{
+    color: red;
+    background-color: blue;
+}
+
+* , ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fff;
+    color: #0055ca;
+    
+}
+
+.team-coders {
+    max-width: 1200px;
+    
+}
+
+.layout{
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.image{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+.content-text{
+    text-align: center;
+    
+    
+    
+}
+
+.content-text h3, h4 {
+    line-height: 2rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+    
+}
+
+@media screen and (min-width:800px) {
+    .team-coders {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3rem;
+        margin-top: 80px;
+        
+    }
+}
+
+
+
+
