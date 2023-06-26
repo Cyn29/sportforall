@@ -1,4 +1,203 @@
-.footer{
-    color: red;
-    background-color: blue;
+.values-body {
+    color: #fff;
+    background-image: url(../assets/img/background/Recurso\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.values__title {
+    font-family: 'Bebas-Neue';
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 11%;
+}
+
+.value-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.value-1__text {
+    flex-direction: column;
+    text-align: center;
+}
+
+.value-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.value-2__icon {
+    margin-left: 6%;
+}
+
+.value-2__text {
+    flex-direction: column;
+    text-align: center;
+}
+
+.value-3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.value-3__text {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.value-4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.value-4__icon {
+    margin-left: 1%;
+}
+
+.value-4__text {
+    flex-direction: column;
+    text-align: center;
+}
+
+.value-5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.value-5__icon {
+    margin-left: 6%;
+}
+
+.value-5__text {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.value-6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+.value-6__icon {
+    margin-left: 3%;
+}
+
+.value-6__text {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 1%;
+}
+
+@media screen and (min-width: 700px) {
+
+.values-body {
+    background-image: url("../assets/img/background/Recurso\ 3.png");
+}
+
+.values {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.values__title {
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.value-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.value-1__icon {
+    margin-bottom: 1%;
+}
+
+.value-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.value-2__icon {
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.value-2__text {
+    margin-left: 2%;
+}
+
+.value-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.value-3__icon {
+    margin-bottom: 1%;
+}
+
+.value-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.value-4__icon {
+    margin-bottom: 1%;
+}
+
+.value-4__text {
+    margin-left: 2%;
+}
+
+.value-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.value-5__icon {
+    margin-right: 1%;
+}
+
+.value-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.value-6__icon {
+    margin-bottom: 1%;
+}
+
 }
