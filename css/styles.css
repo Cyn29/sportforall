@@ -213,6 +213,7 @@
     font-size: 2rem;
     text-align: center;
     margin-top: 11%;
+    color: #38488D;
 }
 
 .service-1 {
@@ -225,6 +226,7 @@
 .service-1__text {
     flex-direction: column;
     text-align: center;
+    color: #38488D;
 }
 
 .service-2 {
@@ -241,6 +243,7 @@
 .service-2__text {
     flex-direction: column;
     text-align: center;
+    color: #38488D;
 }
 
 .service-3 {
@@ -254,6 +257,7 @@
     flex-direction: column;
     text-align: center;
     margin-right: 2%;
+    color: #38488D;
 }
 
 .service-4 {
@@ -270,6 +274,7 @@
 .service-4__text {
     flex-direction: column;
     text-align: center;
+    color: #38488D;
 }
 
 .service-5 {
@@ -287,6 +292,7 @@
     flex-direction: column;
     text-align: center;
     margin-right: 1%;
+    color: #38488D;
 }
 
 .service-6 {
@@ -304,6 +310,7 @@
     flex-direction: column;
     text-align: center;
     margin-right: 1%;
+    color: #38488D;
 }
 
 @media screen and (min-width: 700px) {
