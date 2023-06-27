@@ -15,15 +15,29 @@
 
 .value__item {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 1.2rem;
     margin-top: 4%;
 }
 
-.value__icon {
-    max-width: 150px;
+.value__content {
+    flex-grow: 3;
+    flex-basis: 0;
+}
+
+.value__icon{
+    flex-grow: 1;
+    flex-basis: 0;
+    
+    
+}
+
+.value__icon img{
+    display: block;
+    width: 50px;
+    
 }
 
 .value__icon img {
