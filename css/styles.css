@@ -22,10 +22,14 @@
     margin-top: 4%;
 }
 
-.value__content {
- text-align: left;
- justify-content: flex-end;
+.value__icon {
+    max-width: 150px;
 }
+
+.value__icon img {
+    width: 100%;
+}
+
 
 /*@media screen and (min-width: 700px) {
 
