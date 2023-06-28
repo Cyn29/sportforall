@@ -38,16 +38,14 @@
 .services_container {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    gap: 2rem;
 }
 
-.services__item {
+.services_container > div {
     display: flex;
     flex-direction: column;
-}
-
-.services__content {
-    justify-content: center;
+    align-items:  center;
+    text-align: center;
 }
 
 }
