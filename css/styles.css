@@ -92,9 +92,8 @@
 .value6-right {
     grid-column: 2/3;
     grid-row: -2/-1;
-}*/
+}
 
-<<<<<<< HEAD
 .value-4__text {
     margin-left: 2%;
 }
@@ -120,10 +119,8 @@
 
 .value-6__icon {
     margin-bottom: 1%;
+}*/
 }
-}
-<<<<<<< HEAD
-=======
 
 /* Services */
 
@@ -399,10 +396,127 @@ img {
     }
 }
 
-
-
-
->>>>>>> ab9a2356f68971a91f2ba2cfea3aed948cf44a6e
-=======
+footer {
+    background-color: #38488d;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
 }
->>>>>>> values
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.footer-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.footer-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-form input[type="text"],
+#footer-form textarea {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+#footer-form textarea {
+    height: 100px;
+}
+
+#footer-form button[type="submit"] {
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #38488d;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.icons-rs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icons-rs img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.icons-img:first-child {
+    margin-left: 0;
+}
+
+.icons-img:last-child {
+    margin-right: 0;
+}
+
+.icon-copyright {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon-copyright img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.fake-web,
+.fake-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fake-web p,
+.fake-mail p {
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para dispositivos móviles */
+
+@media screen and (max-width: 767px) {
+    .footer-image img {
+        max-width: 300px;
+    }
+
+    #footer-form input[type="text"],
+    #footer-form textarea {
+        max-width: 250px;
+    }
+}
+
+/*  para escritorio */
+
+@media screen and (min-width: 768px) {
+    .footer-image img {
+        max-width: 600px;
+    }
+
+    #footer-form input[type="text"],
+    #footer-form textarea {
+        max-width: 300px;
+    }
+}
