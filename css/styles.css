@@ -332,10 +332,7 @@
 }
 /*Footer*/
 
-.footer{
-    color: red;
-    background-color: blue;
-}
+
 
 * , ::after, ::before {
     margin: 0;
@@ -350,7 +347,8 @@ body{
 }
 
 .team-coders {
-    max-width: 1200px;
+    
+    background-color: #fff;
     
 }
 
@@ -370,6 +368,7 @@ body{
 
 .content-text{
     text-align: center;
+    color: #0055ca;
     
     
     
