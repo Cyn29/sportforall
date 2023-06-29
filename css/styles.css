@@ -9,9 +9,8 @@
 }
 
 .values__title {
-    font-family: 'Bebas-Neue';
-    font-weight: bold;
-    font-size: 1rem;
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
     text-align: center;
     padding-top: 1.2rem;
 }
@@ -56,6 +55,11 @@
         gap: 6.9rem;
     }
 
+    .values__title {
+        font-family: 'Bebas Neue';
+        font-size: 3rem;
+    }
+
     .value__item  {
         flex-direction: column;
     }
@@ -69,7 +73,60 @@
 
 }
 
-/*Footer*/
+/*SERVICES SECTION*/
+
+.services_main_title {
+    font-family: "Bebas Neue";
+    font-size: 3rem;
+    text-align: center;
+    color: #38488D;
+}
+.services__item {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.services_img {
+    max-width: 50px;
+    min-width: 30px;
+}
+
+.services_img img {
+    width: 100%;
+    background-color: white;
+}
+
+.services_title {
+    font-family: "Bebas Neue";
+    justify-content: flex-start;
+    color: #38488D;
+}
+
+.services_description{
+    font-family: "poppins";
+    color: #38488D;
+}
+
+@media screen and (min-width: 700px){
+
+.services_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+}
+
+.services_container > div {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    text-align: center;
+}
+
+/*SERVICES SECTION*/
+
+/*CODERS SECTION*/
 
 * , ::after, ::before {
     margin: 0;
@@ -109,37 +166,9 @@ body{
     line-height: 2rem;
 }
 
-/*SERVICES SECTION*/
-
-.services_img img {
+img {
     width: 100%;
-    background-color: white;
-}
-
-.services_title {
-    font-family: "Bebas Neue";
-    justify-content: flex-start;
-    color: #38488D;
-}
-
-.services_description{
-    font-family: "poppins";
-    color: #38488D;
-}
-
-@media screen and (min-width: 700px){
-
-.services_container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 2rem;
-}
-
-.services_container > div {
-    display: flex;
-    flex-direction: column;
-    align-items:  center;
-    text-align: center;
+    display: block;
 }
 
 @media screen and (min-width:700px) {
@@ -152,6 +181,10 @@ body{
         
     }
 }
+
+/*CODERS SECTION*/
+
+/*FOOTER SECTION*/
 
 footer {
     background-color: #38488d;
@@ -235,7 +268,6 @@ footer {
 .icon-copyright img {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
 }
 
 .fake-web,
@@ -278,3 +310,5 @@ footer {
         max-width: 300px;
     }
 }
+
+/*FOOTER*/
