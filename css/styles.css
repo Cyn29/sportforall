@@ -41,84 +41,29 @@
 
 @media screen and (min-width: 700px) {
 
-.values-body {
-    background-image: url(../assets/img/background/Recurso\ 3.png);
+    .values-body {
+        background-image: url(../assets/img/background/Recurso\ 3.png);
+        }
+
+    .values {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "left right";
+        gap: 6.9rem;
     }
 
-.values {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    gap: 6.9rem;
-}
+    .value__item  {
+        flex-direction: column;
+    }
 
-.value__item  {
-    flex-direction: column;
-}
+    .value__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.value__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/*.value1-left {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.value2-left {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.value3-left {
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-
-.value4-right {
-    grid-column: 2/3;
-    grid-row: -4/-3;
-}
-
-.value5-right {
-    grid-column: 2/3;
-    grid-row: -3/-2;
-}
-
-.value6-right {
-    grid-column: 2/3;
-    grid-row: -2/-1;
-}
-
-.value-4__text {
-    margin-left: 2%;
-}
-
-.value-5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.value-5__icon {
-    margin-right: 1%;
-    margin-bottom: 1%;
-}
-
-.value-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.value-6__icon {
-    margin-bottom: 1%;
-}*/
 }
 
 /* Services */
@@ -331,10 +276,7 @@
 }
 /*Footer*/
 
-.footer{
-    color: red;
-    background-color: blue;
-}
+
 
 * , ::after, ::before {
     margin: 0;
@@ -349,7 +291,8 @@ body{
 }
 
 .team-coders {
-    max-width: 1200px;
+    
+    background-color: #fff;
     
 }
 
@@ -369,6 +312,7 @@ body{
 
 .content-text{
     text-align: center;
+    color: #0055ca;
     
     
     
@@ -384,7 +328,7 @@ img {
     
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:700px) {
     .team-coders {
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
@@ -496,7 +440,7 @@ footer {
 
 /* Estilos para dispositivos móviles */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
     .footer-image img {
         max-width: 300px;
     }
@@ -509,7 +453,7 @@ footer {
 
 /*  para escritorio */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     .footer-image img {
         max-width: 600px;
     }
