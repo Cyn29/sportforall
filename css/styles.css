@@ -1,3 +1,6 @@
+
+/*VALUES SECTION*/
+
 .values-body {
     color: #fff;
     background-image: url(../assets/img/background/Recurso\ 1.png);
@@ -66,217 +69,7 @@
 
 }
 
-/* Services */
-
-.services_body {
-    color: #fff;
-}
-
-.services__title {
-    font-family: 'Bebas-Neue';
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 11%;
-    color: #38488D;
-}
-
-.service-1 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 7%;
-}
-
-.service-1__text {
-    flex-direction: column;
-    text-align: center;
-    color: #38488D;
-}
-
-.service-2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 7%;
-}
-
-.service-2__icon {
-    margin-left: 6%;
-}
-
-.service-2__text {
-    flex-direction: column;
-    text-align: center;
-    color: #38488D;
-}
-
-.service-3 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 7%;
-}
-
-.service-3__text {
-    flex-direction: column;
-    text-align: center;
-    margin-right: 2%;
-    color: #38488D;
-}
-
-.service-4 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 7%;
-}
-
-.service-4__icon {
-    margin-left: 1%;
-}
-
-.service-4__text {
-    flex-direction: column;
-    text-align: center;
-    color: #38488D;
-}
-
-.service-5 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 7%;
-}
-
-.service-5__icon {
-    margin-left: 6%;
-}
-
-.service-5__text {
-    flex-direction: column;
-    text-align: center;
-    margin-right: 1%;
-    color: #38488D;
-}
-
-.service-6 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 7%;
-}
-
-.service-6__icon {
-    margin-left: 3%;
-}
-
-.service-6__text {
-    flex-direction: column;
-    text-align: center;
-    margin-right: 1%;
-    color: #38488D;
-}
-
-@media screen and (min-width: 700px) {
-
-.services_body {
-        color: #fff;
-    }
-
-.services {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-}
-
-.service__title {
-    font-size: 2rem;
-    margin-top: 5%;
-}
-
-.service-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.service-1__icon {
-    margin-bottom: 1%;
-}
-
-.service-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.service-2__icon {
-    margin-left: 1%;
-    margin-bottom: 1%;
-}
-
-.service-2__text {
-    margin-left: 2%;
-}
-
-.service-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-
-.service-3__icon {
-    margin-bottom: 1%;
-}
-
-.service-4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.service__icon {
-    margin-bottom: 1%;
-}
-
-.service__text {
-    margin-left: 2%;
-}
-
-.service-5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.service-5__icon {
-    margin-right: 1%;
-}
-
-.service-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.service-6__icon {
-    margin-bottom: 1%;
-}
-}
 /*Footer*/
-
-
 
 * , ::after, ::before {
     margin: 0;
@@ -304,28 +97,49 @@ body{
 .image{
     max-width: 150px;
     margin-left: auto;
-    margin-right: auto;
-    
-    
-    
+    margin-right: auto; 
 }
 
 .content-text{
     text-align: center;
-    color: #0055ca;
-    
-    
-    
+    color: #0055ca;  
 }
 
 .content-text h3, h4 {
     line-height: 2rem;
 }
 
-img {
+/*SERVICES SECTION*/
+
+.services_img img {
     width: 100%;
-    display: block;
-    
+    background-color: white;
+}
+
+.services_title {
+    font-family: "Bebas Neue";
+    justify-content: flex-start;
+    color: #38488D;
+}
+
+.services_description{
+    font-family: "poppins";
+    color: #38488D;
+}
+
+@media screen and (min-width: 700px){
+
+.services_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+}
+
+.services_container > div {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    text-align: center;
 }
 
 @media screen and (min-width:700px) {
@@ -436,6 +250,7 @@ footer {
 .fake-mail p {
     color: #fff;
     text-align: center;
+}
 }
 
 /* Estilos para dispositivos móviles */
