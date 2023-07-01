@@ -116,8 +116,8 @@ a:hover {
 .value__item {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-left: 1%;
+  gap: 0.5rem;
+  margin: 1%;
   padding-top: 0.8rem;
 }
 
@@ -342,11 +342,6 @@ footer {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
     gap: 2rem;
-    margin-left: 1%;
-  }
-
-  .value-right {
-    margin-left: 4%;
   }
 
   .values__title {
@@ -358,7 +353,8 @@ footer {
 
   .value__item {
     flex-direction: column;
-    padding: 0.9rem;
+    padding: 0.7rem;
+    margin-left: 3%;
   }
 
   .value__content {
