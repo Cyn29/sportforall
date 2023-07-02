@@ -56,6 +56,7 @@ a:hover {
   font-size: 1.5rem;
   gap: 2rem;
   font-weight: bold;
+  font-family: "bebas neue";
 }
 
 .toggle_btn {
