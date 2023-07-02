@@ -208,6 +208,7 @@ a:hover {
 
 .team-coders {
   background-color: #fff;
+ 
 }
 
 .layout {
@@ -223,12 +224,14 @@ a:hover {
 
 .content-text {
   text-align: center;
-  color: #0055ca;
+  color: #38488d;
+  font-family: var(--font-family-poppins);
 }
 
 .content-text h3,
 h4 {
   line-height: 2rem;
+  font-family: var(--font-family-bebasneue);
 }
 
 img {
@@ -334,6 +337,7 @@ footer {
 .fake-mail p {
   color: #fff;
   text-align: center;
+  font-family: var(--font-family-poppins);
 }
 
 .footer-image img {
