@@ -103,10 +103,12 @@ a:hover {
   height: auto;
   display: grid;
   grid-row: 50% 50%;
+  margin-top: 8vh;
 
 }
 .first_container {
   justify-content: center;
+  background-image: url(../assets/img/home/First\ container\ background.png);
 }
 
 .second_container {
