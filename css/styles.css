@@ -96,6 +96,30 @@ a:hover {
   justify-content: center;
 }
 
+/*HOME SECTION*/
+.home-body {
+  color: #fff;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-row: 50% 50%;
+
+}
+.first_container {
+  justify-content: center;
+}
+
+.second_container {
+  justify-content: center;
+  
+}
+
+.home_text {
+  text-align: center;
+  color: #38488d;
+  font-family: "Poppins";
+}
+
 /*VALUES SECTION*/
 .values-body {
   color: #fff;
