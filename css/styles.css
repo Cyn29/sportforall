@@ -330,7 +330,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .fake-web p,
@@ -338,6 +338,10 @@ footer {
   color: #fff;
   text-align: center;
   font-family: var(--font-family-poppins);
+}
+
+.fake-mail p {
+    margin-bottom: 20px;
 }
 
 .footer-image img {
