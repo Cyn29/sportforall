@@ -14,7 +14,7 @@ body {
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
@@ -74,10 +74,10 @@ a:hover {
     top: 7vh;
     height: 0;
     min-width: 300px;
-    max-width: 75vw;
-    width: 75vw;
-    background-color: 00EDFC;
-  /* background-color: rgba(255, 255, 255, 0.1); */
+    max-width: 70vw;
+    width: 70vw;
+    /* background-color: 00EDFC; */
+    background-color: rgba(17, 148, 165, 0.8);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -106,6 +106,7 @@ a:hover {
     margin-top: 8vh;
 
 }
+
 .first_container {
     justify-content: center;
     background-image: url(../assets/img/home/First\ container\ background.png);
@@ -203,9 +204,45 @@ a:hover {
     color: #38488d;
 }
 
+/*GROUP TEAM*/
+.team {
+    background-image: url(../assets/img/background/6106991.jpg);
+    width: 100vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.groupTeam_container{
+    width: 90vw;
+    margin: auto;
+}
+.groupTeam_title {
+    font-family: var(--font-family-bebasneue);
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 9vh;
+    height: 15vh;
+}
+
+.groupTeam__item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 20vh;
+}
+
+.groupTeam__item img:hover {
+    filter: hue-rotate(-60deg);
+}
+
+
 /*TEAM*/
 
 .team-coders {
+    margin-top: 5vh;
     background-color: #fff;
 }
 
@@ -236,6 +273,7 @@ img {
     width: 100%;
     display: block;
 }
+
 
 /*FOOTER SECTION*/
 
@@ -347,7 +385,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-image img {
+.footer-image iframe {
     max-width: 300px;
 }
 
@@ -359,91 +397,119 @@ footer {
 /* **************************** MEDIA QUERIES ************************************** */
 
 @media screen and (min-width: 700px) {
-  /* SETION NAVBAR DESKTOP */
-.navbar .links {
-    display: flex;
-}
-.navbar .toggle_btn {
-    display: none;
-}
-.dropdown_menu {
-    display: block;
-}
 
-  /* SECTION VALUES DESKTOP */
-.values-body {
-    background-image: url(../assets/img/background/Recurso\ 3.png);
-}
+    /* SETION NAVBAR DESKTOP */
+    .navbar .links {
+        display: flex;
+    }
 
-.values {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    gap: 2rem;
-}
+    .navbar .toggle_btn {
+        display: none;
+    }
 
-.values__title {
-    font-family: "Bebas Neue";
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 4%;
-}
+    .dropdown_menu {
+        display: block;
+        max-width: 20vw;
+    }
 
-.value__item {
-    flex-direction: column;
-    padding: 0.7rem;
-    margin-left: 3%;
-}
+    /* SECTION VALUES DESKTOP */
+    .values-body {
+        background-image: url(../assets/img/background/Recurso\ 3.png);
+    }
 
-.value__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 20rem;
-}
+    .values {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 2rem;
+    }
 
-.value__description {
-    text-align: center;
-}
+    .values__title {
+        font-family: "Bebas Neue";
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 4%;
+    }
 
-/*SERVICES SECTION*/
+    .value__item {
+        flex-direction: column;
+        padding: 0.7rem;
+        margin-left: 3%;
+    }
 
-.services_container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 2rem;
-}
+    .value__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 20rem;
+    }
 
-.services__content {
-    max-width: 20rem;
-}
+    .value__description {
+        text-align: center;
+    }
 
-.services_container > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+    /*SERVICES SECTION*/
 
-/*CODERS SECTION*/
+    .services_container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 2rem;
+    }
 
-.team-coders {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 3rem;
-    margin-top: 80px;
-}
+    .services__content {
+        max-width: 20rem;
+    }
 
-/*FOOTER SECTION*/
+    .services_container>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.footer-image img {
-    max-width: 600px;
-}
 
-#footer-form input[type="text"],
-#footer-form textarea {
-    max-width: 300px;
-}
+    /*GROUP TEAM*/
+    .team {
+        height: 90vh;
+    }
+    
+    .groupTeam_container{
+        width: 100vw;
+        margin: auto;
+    }
+
+    .groupTeam_title {
+        font-size: 3rem;
+        padding-top: 30vh;
+        height: 50vh;
+    }
+
+    .groupTeam__item {
+        height: 40vh;
+        gap: 0;
+    }
+
+
+
+    /*CODERS SECTION*/
+
+    .team-coders {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3rem;
+        margin-top: 80px;
+    }
+
+    /*FOOTER SECTION*/
+
+    .footer-image iframe {
+        max-width: 600px;
+    }
+
+    #footer-form input[type="text"],
+    #footer-form textarea {
+        max-width: 300px;
+    }
 }
