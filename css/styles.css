@@ -380,7 +380,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-image img {
+.footer-image iframe {
     max-width: 300px;
 }
 
@@ -499,7 +499,7 @@ footer {
 
     /*FOOTER SECTION*/
 
-    .footer-image img {
+    .footer-image iframe {
         max-width: 600px;
     }
 
