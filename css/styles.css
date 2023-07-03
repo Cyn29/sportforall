@@ -12,10 +12,11 @@ body {
     --color: #fff;
     --background-color: #fff;
     --color-text-blue: #38488d;
+    --color-body-blue: #0055ca;
     --color-menu-hover: rgb(0, 234, 255);
     --background-color-menu-opacity: rgba(17, 148, 165, 0.8);
-    background-color: #fff;
-    color: #0055ca;
+    background-color: var(--color);
+    color: var(--color-body-blue);
 }
 
 li {
