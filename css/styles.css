@@ -41,6 +41,7 @@ a:hover {
     width: 100vw;
     padding: 0 2rem;
     background-color: var(--color-text-blue);
+    z-index: 1;
 }
 
 .navbar {
