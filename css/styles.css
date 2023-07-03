@@ -50,6 +50,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo {
@@ -118,6 +119,7 @@ a:hover {
     text-align: center;
     color: var(--color-text-blue);
     font-family: "Poppins";
+    border: s1px solid red;
 
 }
 
@@ -127,7 +129,7 @@ a:hover {
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     margin-top: 10.5vh;
-    
+
 
 }
 
