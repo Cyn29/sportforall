@@ -206,7 +206,7 @@ a:hover {
 
 /*GROUP TEAM*/
 .team {
-    background-image: url("/assets/img/background/6106991.jpg");
+    background-image: url(../assets/img/background/6106991.jpg);
     width: 100vw;
     height: 35vh;
     background-position: center;
