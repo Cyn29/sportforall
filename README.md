@@ -3,7 +3,7 @@
 
 Welcome to the official repository of Sport For All. The proyect consists in design and layout of a tech consultancy.
 
-## Instalation
+## Installation
 
 You need to create an account on GitHub.
 Create a local repository and sync it with GitHub or clone the repository from GitHub (use the command git clone https://github.com/Cyn29/sportforall.git). 
