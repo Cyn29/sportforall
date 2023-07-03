@@ -11,7 +11,7 @@ If you clone the repository from GitHub you don't need to create a local reposit
 
 ## Authors
 
-- [JaimeMartinez9](https://github.com/JaimeMartinez9)
+- [@JaimeMartinez9](https://github.com/JaimeMartinez9)
 - [@Cyn29](https://github.com/Cyn29)
 - [@diegoaisa](https://github.com/diegoaisa)
 - [@AinhoaAguado](https://github.com/AinhoaAguado)
