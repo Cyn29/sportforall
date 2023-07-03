@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sport For All</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet" 
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet" 
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer" 
+    />
     <link rel="stylesheet" type="reset" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
@@ -58,7 +64,7 @@
 
     <!--HOME WEB-->
 
-    <home class="home-body">
+    <div class="home-body">
       <div class="first_container">
         <img src="assets/img/logo/Sport for All Blanco.png" alt="Logo Sport for All Blanco"/>
         <p class="first_container_text">“El deporte tiene el poder de transformar el mundo.Tiene el poder de inspirar, de unir a la gente como pocas otras cosas.” (Nelson Mandela)</p>
@@ -67,7 +73,7 @@
       <div class="second_container">
         <p class="home_text">Consultora tech especializada en el desarrollo de software con fines deportivos, responsabilidad social, inclusión y diversidad.</p>
       </div>
-    </home>
+    </div>
 
     <!--VALUES SECTION-->
 
@@ -336,22 +342,17 @@
     <footer id="contact" class="footer">
       <div class="container-footer">
         <div class="footer-image">
-          <img
-            src="assets/img/RRSS/foto maps.jpeg"
-            alt="Descripción de la imagen" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.994311768371!2d-3.7086342234459537!3d40.43112485476244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422860ff3bd69b%3A0x42706b3934132dfd!2sC.%20de%20San%20Bernardo%2C%20101%2C%2028015%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1688339542835!5m2!1ses!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="footer-content">
           <div class="footer-form">
-            <form id="footer-form">
-              <input type="text" name="nombre" placeholder="Nombre" required />
-              <input
-                type="text"
-                name="apellido"
-                placeholder="Apellido"
-                required />
-              <textarea name="comentario" placeholder="Comentario"></textarea>
-              <button type="submit">Enviar</button>
-            </form>
+                <form id="footer-form">
+                    <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label=".form-control-lg example">
+                    <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example">
+                    <input class="form-control form-control-sm" type="text" placeholder="Comentario" aria-label=".form-control-sm example">
+                    <button type="button" class="btn btn-outline-primary btn-lg footer__button">Enviar</button>
+                </form>
+            </div>
             <!-- estos son los iconos de redes sociales-->
             <div class="icons-rs">
               <div class="icons-rs">
@@ -378,10 +379,15 @@
               <p>infoSportForAll@gmail.com</p>
             </div class="copyright">
             <p>&copy;2023 SportForAll.S.L</p>
-          </div>
+          
         </div>
       </div>
     </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     <script src="./js/script_NavBar3.js"></script>
   </body>
 </html>
