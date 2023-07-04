@@ -129,8 +129,6 @@ a:hover {
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     margin-top: 10.5vh;
-
-
 }
 
 .home-banner__content{
@@ -158,7 +156,6 @@ a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    
 }
 
 .cta_button{
@@ -272,10 +269,12 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .groupTeam_container {
     width: 90vw;
     margin: auto;
 }
+
 .groupTeam_title {
     font-family: var(--font-family-bebasneue);
     font-size: 2rem;
@@ -353,7 +352,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 .footer-image{
@@ -464,7 +462,9 @@ footer {
 /* **************************** MEDIA QUERIES ************************************** */
 
 @media screen and (min-width: 700px) {
+
     /* SECTION NAVBAR DESKTOP */
+
     .navbar .links {
         display: flex;
     }
@@ -479,6 +479,7 @@ footer {
     }
 
     /*Home section*/
+
     .home-banner{
         padding: 5rem 1rem 6rem;
     }
@@ -500,6 +501,7 @@ footer {
     }
 
     /* SECTION VALUES DESKTOP */
+
     .values-body {
         background-image: url(../assets/img/background/Recurso\ 3.png);
     }
@@ -556,6 +558,7 @@ footer {
     }
 
     /*GROUP TEAM*/
+    
     .team {
         height: 90vh;
     }

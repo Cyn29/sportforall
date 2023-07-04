@@ -28,7 +28,7 @@ header {
         background-color: $color-text-blue;
         z-index: 1;
     }
-    
+
     .navbar {
         height: 10vh;
         max-width: 1200px;
@@ -36,7 +36,6 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
     }
 
     .logo {
@@ -59,7 +58,7 @@ nav {
     a:hover {
         color: $color-menu-hover;
     }
-    
+
     .links {
         display: none;
         font-size: 1.5rem;
@@ -67,7 +66,7 @@ nav {
         font-weight: bold;
         font-family: $font-family-bebasneue;
     }
-    
+
     .toggle_btn {
         color: $white;
         font-size: 1.5rem;
@@ -75,7 +74,6 @@ nav {
         display: block;
     }
 }
-
 
 /* NAV SECTION */
 /* header */
@@ -101,7 +99,7 @@ nav {
         height: auto;
         padding: 2rem 0;
     }
-    
+
     .dropdown_menu li {
         padding: 0.7rem;
         display: flex;
@@ -112,51 +110,48 @@ nav {
 
 /*HOME SECTION*/
 
-
-.l-section{
+.l-section {
     margin-bottom: 4rem;
 }
 
-.center-block{
+.center-block {
     margin-left: auto;
     margin-right: auto;
 }
 
-.center-content{
+.center-content {
     text-align: center;
     color: $color-text-blue;
     font-family: $font-family-poppins;
     border: s1px solid red;
 }
 
-.home-banner{
+.home-banner {
     padding: 2rem 1rem 3rem;
     color: $white;
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     margin-top: 10.5vh;
-
-
 }
 
-.home-banner__content{
+.home-banner__content {
     position: relative;
 }
 
-.home-banner__logo{
+.home-banner__logo {
     height: 6rem;
     width: auto;
     display: block;
-    margin: 0 auto .5rem;
+    margin: 0 auto 0.5rem;
 }
 
-.home-banner__title{
-    margin: 0 auto .5rem;
+.home-banner__title {
+    margin: 0 auto 0.5rem;
     background-color: $color-text-blue;
     padding: 1em;
 }
 
-.home-banner__hero-image{
+.home-banner__hero-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -164,29 +159,24 @@ nav {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    
 }
 
-.cta_button{
+.cta_button {
     display: inline-block;
     border-color: $white;
     border-radius: 1em;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     margin-top: 10px;
     background-color: $color-text-blue;
     color: $white;
-    transition: .2s all;
+    transition: 0.2s all;
 }
 
-.cta_button:hover{
+.cta_button:hover {
     border-color: $color-text-blue;
     background-color: $white;
     color: $color-text-blue;
 }
-
-
-
-
 
 /*VALUES SECTION*/
 .values-body {
@@ -314,14 +304,13 @@ nav {
 .layout {
     margin-bottom: 3rem;
     padding: 1rem;
-    
 }
 
-.layout:hover{
+.layout:hover {
     border: 1px solid $color-text-blue;
     box-shadow: -8px -8px 1px #b2bbe0;
     transform: translate(-20px);
-    transition: .4s all;
+    transition: 0.4s all;
 }
 
 .image {
@@ -360,16 +349,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
-.footer-image{
-    
+.footer-image {
     max-width: 800px;
     margin-top: 2rem;
 }
 
-.footer-image iframe{
+.footer-image iframe {
     width: 600px;
 }
 
@@ -379,7 +366,7 @@ footer {
     margin-right: 1rem;
 }
 
-.footer__button{
+.footer__button {
     background-color: $white;
 }
 
@@ -584,24 +571,23 @@ footer {
     }
 
     /*Home section*/
-    .home-banner{
+    .home-banner {
         padding: 5rem 1rem 6rem;
     }
 
-    .home-banner__logo{
+    .home-banner__logo {
         height: 12rem;
     }
 
-    .description p{
+    .description p {
         width: 30%;
     }
 
-    .home-banner__title{
+    .home-banner__title {
         width: 30%;
     }
 
-    .l-section{
+    .l-section {
         margin-bottom: 2rem;
     }
-
 }
