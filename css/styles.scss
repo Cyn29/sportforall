@@ -7,75 +7,80 @@
 }
 
 body {
-    --font-family-bebasneue: "Bebas Neue";
-    --font-family-poppins: "Poppins";
-    --color: #fff;
-    --background-color: #fff;
-    --color-text-blue: #38488d;
-    --color-body-blue: #0055ca;
-    --color-menu-hover: rgb(0, 234, 255);
-    --background-color-menu-opacity: rgba(17, 148, 165, 0.8);
-    background-color: var(--color);
-    color: var(--color-body-blue);
+    $font-family-bebasneue: "Bebas Neue";
+    $font-family-poppins: "Poppins";
+    $white: #fff;
+    $background-color: #fff;
+    $color-text-blue: #38488d;
+    $color-body-blue: #0055ca;
+    $color-menu-hover: rgb(0, 234, 255);
+    $background-color-menu-opacity: rgba(17, 148, 165, 0.8);
+    background-color: $white;
+    color: $color-body-blue;
 }
 
-li {
-    list-style: none;
+header {
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        padding: 0 2rem;
+        background-color: $color-text-blue;
+        z-index: 1;
+    }
+    
+    .navbar {
+        height: 10vh;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .logo {
+        width: 80px;
+        height: auto;
+    }
 }
 
-a {
-    text-decoration: none;
-    color: var(--color);
-    font-size: 1rem;
+nav {
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+        font-size: 1rem;
+    }
+
+    a:hover {
+        color: $color-menu-hover;
+    }
+    
+    .links {
+        display: none;
+        font-size: 1.5rem;
+        gap: 2rem;
+        font-weight: bold;
+        font-family: $font-family-bebasneue;
+    }
+    
+    .toggle_btn {
+        color: $white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: block;
+    }
 }
 
-a:hover {
-    color: var(--color-menu-hover);
-}
 
 /* NAV SECTION */
 /* header */
 
-.header {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    padding: 0 2rem;
-    background-color: var(--color-text-blue);
-    z-index: 1;
-}
-
-.navbar {
-    height: 10vh;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-}
-
-.links {
-    display: none;
-    font-size: 1.5rem;
-    gap: 2rem;
-    font-weight: bold;
-    font-family: "bebas neue";
-}
-
-.toggle_btn {
-    color: var(--color);
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: block;
-}
-
 /* DROPDOWN MENU */
-
 .dropdown_menu {
     display: block;
     position: absolute;
@@ -85,23 +90,24 @@ a:hover {
     min-width: 300px;
     max-width: 70vw;
     width: 70vw;
-    background-color: var(--background-color-menu-opacity);
+    /* background-color: 00EDFC; */
+    background-color: $background-color-menu-opacity;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
 
-.dropdown_menu.open {
-    height: auto;
-    padding: 2rem 0;
-}
-
-.dropdown_menu li {
-    padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .dropdown_menu.open {
+        height: auto;
+        padding: 2rem 0;
+    }
+    
+    .dropdown_menu li {
+        padding: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /*HOME SECTION*/
@@ -118,14 +124,14 @@ a:hover {
 
 .center-content{
     text-align: center;
-    color: var(--color-text-blue);
-    font-family: "Poppins";
+    color: $color-text-blue;
+    font-family: $font-family-poppins;
     border: s1px solid red;
 }
 
 .home-banner{
     padding: 2rem 1rem 3rem;
-    color: #fff;
+    color: $white;
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     margin-top: 10.5vh;
@@ -146,7 +152,7 @@ a:hover {
 
 .home-banner__title{
     margin: 0 auto .5rem;
-    background-color: #38488D;
+    background-color: $color-text-blue;
     padding: 1em;
 }
 
@@ -163,25 +169,28 @@ a:hover {
 
 .cta_button{
     display: inline-block;
-    border-color: #fff;
+    border-color: $white;
     border-radius: 1em;
     padding: .5em .7em;
     margin-top: 10px;
-    background-color: #38488D;
-    color: #fff;
+    background-color: $color-text-blue;
+    color: $white;
     transition: .2s all;
 }
 
 .cta_button:hover{
-    border-color: #38488D;
-    background-color: #fff;
-    color: #38488D;
+    border-color: $color-text-blue;
+    background-color: $white;
+    color: $color-text-blue;
 }
 
-/*VALUES SECTION*/
 
+
+
+
+/*VALUES SECTION*/
 .values-body {
-    color: var(--color);
+    color: $white;
     background-image: url(../assets/img/background/Recurso\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -191,7 +200,7 @@ a:hover {
 }
 
 .values__title {
-    font-family: var(--font-family-bebasneue);
+    font-family: $font-family-bebasneue;
     font-size: 3rem;
     text-align: center;
     padding-top: 9%;
@@ -216,25 +225,24 @@ a:hover {
 }
 
 .value__title {
-    font-family: var(--font-family-bebasneue);
+    font-family: $font-family-bebasneue;
 }
 
 .value__description {
-    font-family: var(--font-family-poppins);
+    font-family: $font-family-poppins;
 }
 
 /*SERVICES*/
-
 .services_main_title {
-    font-family: "Bebas Neue";
+    font-family: $font-family-bebasneue;
     font-size: 3rem;
     text-align: center;
-    color: var(--color-text-blue);
+    color: $color-text-blue;
     margin-top: 4%;
 }
 
 .services__item {
-    background-color: var(--color);
+    background-color: $white;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -248,22 +256,21 @@ a:hover {
 
 .services_img img {
     width: 100%;
-    background-color: var(--color);
+    background-color: $white;
 }
 
 .services_title {
-    font-family: "Bebas Neue";
+    font-family: $font-family-bebasneue;
     justify-content: flex-start;
-    color: var(--color-text-blue);
+    color: $color-text-blue;
 }
 
 .services_description {
-    font-family: "poppins";
-    color: var(--color-text-blue);
+    font-family: $font-family-poppins;
+    color: $color-text-blue;
 }
 
 /*GROUP TEAM*/
-
 .team {
     background-image: url(../assets/img/background/6106991.jpg);
     width: 100vw;
@@ -277,10 +284,10 @@ a:hover {
     margin: auto;
 }
 .groupTeam_title {
-    font-family: var(--font-family-bebasneue);
+    font-family: $font-family-bebasneue;
     font-size: 2rem;
     text-align: center;
-    color: var(--color);
+    color: $white;
     padding-top: 9vh;
     height: 15vh;
 }
@@ -301,7 +308,7 @@ a:hover {
 
 .team-coders {
     margin-top: 5vh;
-    background-color: var(--color);
+    background-color: $white;
 }
 
 .layout {
@@ -311,7 +318,7 @@ a:hover {
 }
 
 .layout:hover{
-    border: 1px solid #38488D;
+    border: 1px solid $color-text-blue;
     box-shadow: -8px -8px 1px #b2bbe0;
     transform: translate(-20px);
     transition: .4s all;
@@ -325,14 +332,14 @@ a:hover {
 
 .content-text {
     text-align: center;
-    color: var(--color-text-blue);
-    font-family: var(--font-family-poppins);
+    color: $color-text-blue;
+    font-family: $font-family-poppins;
 }
 
 .content-text h3,
 h4 {
     line-height: 2rem;
-    font-family: var(--font-family-bebasneue);
+    font-family: $font-family-bebasneue;
 }
 
 img {
@@ -343,10 +350,10 @@ img {
 /*FOOTER SECTION*/
 
 footer {
-    background-color: var(--color-text-blue);
+    background-color: $color-text-blue;
     padding: 20px;
     text-align: center;
-    color: var(--color);
+    color: $white;
 }
 
 .container-footer {
@@ -373,7 +380,7 @@ footer {
 }
 
 .footer__button{
-    background-color: white;
+    background-color: $white;
 }
 
 #footer-form input[type="text"],
@@ -392,8 +399,8 @@ footer {
 
 #footer-form button[type="submit"] {
     padding: 10px 30px;
-    background-color: var(--color);
-    color: var(--color-text-blue);
+    background-color: $white;
+    color: $color-text-blue;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -443,9 +450,9 @@ footer {
 
 .fake-web p,
 .fake-mail p {
-    color: var(--color);
+    color: $white;
     text-align: center;
-    font-family: var(--font-family-poppins);
+    font-family: $font-family-poppins;
 }
 
 .fake-mail p {
@@ -464,7 +471,7 @@ footer {
 /* **************************** MEDIA QUERIES ************************************** */
 
 @media screen and (min-width: 700px) {
-    /* SECTION NAVBAR DESKTOP */
+    /* SETION NAVBAR DESKTOP */
     .navbar .links {
         display: flex;
     }
@@ -476,27 +483,6 @@ footer {
     .dropdown_menu {
         display: block;
         max-width: 20vw;
-    }
-
-    /*Home section*/
-    .home-banner{
-        padding: 5rem 1rem 6rem;
-    }
-
-    .home-banner__logo{
-        height: 12rem;
-    }
-
-    .description p{
-        width: 30%;
-    }
-
-    .home-banner__title{
-        width: 30%;
-    }
-
-    .l-section{
-        margin-bottom: 2rem;
     }
 
     /* SECTION VALUES DESKTOP */
@@ -512,7 +498,7 @@ footer {
     }
 
     .values__title {
-        font-family: "Bebas Neue";
+        font-family: $font-family-bebasneue;
         font-size: 3rem;
         text-align: center;
         padding-top: 4%;
@@ -597,5 +583,25 @@ footer {
         max-width: 300px;
     }
 
-}
+    /*Home section*/
+    .home-banner{
+        padding: 5rem 1rem 6rem;
+    }
 
+    .home-banner__logo{
+        height: 12rem;
+    }
+
+    .description p{
+        width: 30%;
+    }
+
+    .home-banner__title{
+        width: 30%;
+    }
+
+    .l-section{
+        margin-bottom: 2rem;
+    }
+
+}
